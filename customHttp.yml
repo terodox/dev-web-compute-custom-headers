@@ -1,11 +1,11 @@
 customHeaders:
-  - pattern: '*.js'
+  - pattern: '**/*.js'
     headers:
     - key: 'x-testing-andy'
       value: 'andy-it-is-here'
     - key: 'x-testing-andy2'
       value: 'yes-definitely-here'
-  - pattern: '*.css'
+  - pattern: '**/*.css'
     headers:
     - key: 'x-testing-andy'
       value: 'so-stylish'
